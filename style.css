@@ -4,13 +4,20 @@ body {
 
 .submit-area {
     margin-top: 50px;
+    padding: 40px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px gray;
-    padding: 50px;
 }
 
 #transaction-area {
     display: none;
+}
+
+.status {
+    margin: 0 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .deposit {
@@ -18,16 +25,9 @@ body {
 }
 
 .withdraw {
-    background-color: lightsalmon
+    background-color: lightsalmon;
 }
 
 .balance {
     background-color: orange;
-}
-
-.status {
-    border-radius: 10px;
-    padding: 30px;
-    margin: 0 20px;
-    color: white;
 }
